@@ -13,7 +13,6 @@ class Coder
     if i > @permChars.length
       throw new RangeError 'not enough permutation characters'
     perm = Permutation.decode number, i
-    console.log perm
     return (@permChars[x] for x in perm.list)
   
   decode: (chars) ->

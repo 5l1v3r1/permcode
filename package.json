@@ -1,0 +1,19 @@
+{
+  "name": "permcode",
+  "description": "encode/decode a string to/from a permutation",
+  "author": "Alex Nichol <unixpickle@gmail.com>",
+  "repository": "https://github.com/unixpickle/permcode.git",
+  "dependencies": {
+    "express": "4.3.x",
+    "coffee-script": "1.7.x",
+    "bigint": "0.4.2"
+  },
+  "version": "0.0.1",
+  "licenses": [{
+    "type": "GPL",
+    "url": "http://www.gnu.org/licenses/gpl.html"
+  }],
+  "engines": {
+    "node": "0.10.x"
+  }
+}
